@@ -1,0 +1,23 @@
+{
+  "name": "project-tracking-intro",
+  "version": "1.0.0",
+  "description": "![Design preview for the Project tracking intro component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emrikcah/project-tracking-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emrikcah/project-tracking-intro/issues"
+  },
+  "homepage": "https://github.com/Emrikcah/project-tracking-intro#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
