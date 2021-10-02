@@ -35,6 +35,12 @@ body::after {
   background-color: var(--light-gray);
 }
 
+@media (min-width: 1008px) {
+  body::after {
+    height: 50vh;
+  }
+}
+
 h1, h2, button, nav a, span {
   font-family: var(--font-barlow-condensed);
 }
@@ -236,7 +242,7 @@ img {
 
 .main .phone_laptop_img {
   margin-bottom: 100px;
-  transform: scale(1.7) translate(17%, -10%);
+  transform: scale(1.5) translate(14%, -10%);
 }
 
 @media (min-width: 641px) {

@@ -26,6 +26,10 @@ body::after{
    z-index: -1;
    border-bottom-left-radius: 100px;
    background-color: var(--light-gray);
+
+   @media (min-width: 1008px){
+      height: 50vh;
+   }
 }
 
 h1,h2,button,nav a,span{
