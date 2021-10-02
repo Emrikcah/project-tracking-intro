@@ -7,8 +7,8 @@
    }
    //sibling
    .main__content {
-     
-      
+     position: relative;
+      overflow-x: hidden;
       .new {
          color: #fff;
          background-color: var(--dark-blue);
@@ -61,9 +61,12 @@
    }
    //sibling
    .phone_laptop_img {
-      
+      //
       margin-bottom: 100px;
       transform: scale(1.5) translate(14%, -10%);
+//       position: absolute;
+//       left: 105px;
+// top: 126px;
    }
 }
 
