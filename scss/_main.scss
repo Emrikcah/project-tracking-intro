@@ -1,5 +1,5 @@
 .main {
-
+   overflow-x: hidden;
    //sibling
    .flex {
       display: flex;
@@ -7,8 +7,8 @@
    }
    //sibling
    .main__content {
-     position: relative;
-      overflow-x: hidden;
+      position: relative;
+
       .new {
          color: #fff;
          background-color: var(--dark-blue);
@@ -60,13 +60,10 @@
       }
    }
    //sibling
-   .phone_laptop_img {
-      //
+   .phone_laptop_img {   
       margin-bottom: 100px;
-      transform: scale(1.5) translate(14%, -10%);
-//       position: absolute;
-//       left: 105px;
-// top: 126px;
+      transform: scale(1.5) translate(14%, -1%);
+      
    }
 }
 
@@ -78,7 +75,6 @@
       }
 
       .main__content {
-        
          margin-top: -100px;
          h1 {
             font-size: 4rem;
@@ -90,9 +86,8 @@
             margin-bottom: 64px;
          }
 
-         .span2{
-         letter-spacing: 5px;
-
+         .span2 {
+            letter-spacing: 5px;
          }
       }
 

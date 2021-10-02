@@ -55,6 +55,7 @@ ul {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -185,6 +186,10 @@ img {
   }
 }
 
+.main {
+  overflow-x: hidden;
+}
+
 .main .flex {
   display: flex;
   flex-direction: column-reverse;
@@ -192,7 +197,6 @@ img {
 
 .main .main__content {
   position: relative;
-  overflow-x: hidden;
 }
 
 .main .main__content .new {
@@ -248,7 +252,7 @@ img {
 
 .main .phone_laptop_img {
   margin-bottom: 100px;
-  transform: scale(1.5) translate(14%, -10%);
+  transform: scale(1.5) translate(14%, -1%);
 }
 
 @media (min-width: 641px) {

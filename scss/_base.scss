@@ -8,6 +8,7 @@
 
 html {
    // font-size: 62.5%;
+   
 }
 
 body {
@@ -15,6 +16,7 @@ body {
    font-family: var(--font-barlow);
    font-size: 18px;
    max-height: 879px;
+   
 }
 
 body::after{
@@ -46,7 +48,7 @@ ul {
 }
 
 img {
-   // display: block;
+   display: block;
    max-width: 100%;
 }
 
