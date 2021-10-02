@@ -29,7 +29,7 @@ body::after {
   content: '';
   top: 0;
   right: 0;
-  height: 50vh;
+  height: 70vh;
   width: 50vw;
   z-index: -1;
   border-bottom-left-radius: 100px;
@@ -168,6 +168,9 @@ img {
     margin-top: 0;
     margin-left: 80px;
   }
+  .header .header__links a:hover {
+    border-bottom: 1px solid #242942;
+  }
   .header .header__links .txt-gray::before {
     border-radius: 50%;
     transform: translate(-45px, -50%);
@@ -193,10 +196,6 @@ img {
 .main .flex {
   display: flex;
   flex-direction: column-reverse;
-}
-
-.main .main__content {
-  position: relative;
 }
 
 .main .main__content .new {
@@ -245,13 +244,20 @@ img {
   margin-right: 20px;
 }
 
+.main .main__content button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .main .main__content .span2 {
   text-transform: uppercase;
   opacity: 0.5;
+  letter-spacing: 2.5px;
+  font-size: .90rem;
 }
 
 .main .phone_laptop_img {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   transform: scale(1.5) translate(14%, -1%);
 }
 
