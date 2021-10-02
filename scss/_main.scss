@@ -7,7 +7,7 @@
    }
    //sibling
    .main__content {
-      position: relative;
+      
 
       .new {
          color: #fff;
@@ -52,16 +52,23 @@
          text-transform: uppercase;
          padding: 12px 20px;
          margin-right: 20px;
+
+         &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+         }
       }
 
       .span2 {
          text-transform: uppercase;
          opacity: 0.5;
+         letter-spacing: 2.5px;
+         font-size: .90rem;
       }
    }
    //sibling
    .phone_laptop_img {   
-      margin-bottom: 100px;
+      margin-bottom: 150px;
       transform: scale(1.5) translate(14%, -1%);
       
    }
@@ -86,7 +93,7 @@
             margin-bottom: 64px;
          }
 
-         .span2 {
+                 .span2 {
             letter-spacing: 5px;
          }
       }

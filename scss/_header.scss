@@ -18,6 +18,7 @@
 
    .header__links {
      
+     
       .txt-gray {
          position: relative;
          opacity: 0.5;
@@ -98,6 +99,9 @@
             margin-top: 0;
             margin-left: 80px;
          }
+         & a:hover {
+            border-bottom: 1px solid rgb(36, 41, 66);
+          }
 
          .txt-gray::before{
             border-radius: 50%;
