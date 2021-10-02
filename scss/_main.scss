@@ -1,0 +1,102 @@
+.main {
+
+   //sibling
+   .flex {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   //sibling
+   .main__content {
+     
+      
+      .new {
+         color: #fff;
+         background-color: var(--dark-blue);
+         padding: 2px 7px;
+         margin-right: 10px;
+         border-radius: 20px;
+         font-size: 1rem;
+         letter-spacing: 0.1rem;
+      }
+      h2 {
+         display: inline-block;
+         font-weight: 400;
+         font-size: 1rem;
+         text-transform: uppercase;
+         letter-spacing: 5px;
+         opacity: 0.5;
+      }
+
+      h1 {
+         color: var(--dark-blue);
+         text-transform: uppercase;
+         font-size: 2.5rem;
+         margin-top: 16px;
+         margin-bottom: 16px;
+      }
+
+      p {
+         font-size: 1.4rem;
+         line-height: 2rem;
+         margin-bottom: 27px;
+      }
+
+      button {
+         background-color: var(--light-red);
+         color: #fff;
+         border: none;
+         border-radius: 5px;
+         font-weight: 700;
+         font-size: 0.93rem;
+         letter-spacing: 1.5px;
+         text-transform: uppercase;
+         padding: 12px 20px;
+         margin-right: 20px;
+      }
+
+      .span2 {
+         text-transform: uppercase;
+         opacity: 0.5;
+      }
+   }
+   //sibling
+   .phone_laptop_img {
+      
+      margin-bottom: 100px;
+      transform: scale(1.7) translate(17%, -10%);
+   }
+}
+
+@media (min-width: 641px) {
+   .main {
+      .flex {
+         flex-direction: row;
+         margin-top: 124px;
+      }
+
+      .main__content {
+        
+         margin-top: -100px;
+         h1 {
+            font-size: 4rem;
+            max-width: 570px;
+         }
+
+         p {
+            max-width: 350px;
+            margin-bottom: 64px;
+         }
+
+         .span2{
+         letter-spacing: 5px;
+
+         }
+      }
+
+      .phone_laptop_img {
+         margin-bottom: 0;
+         //tanslate x/y
+         transform: scale(1.2) translate(27%, -10%);
+      }
+   }
+}
