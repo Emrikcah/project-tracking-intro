@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet" />
+      <!-- my styles -->
+      <link rel="stylesheet" href="css/main.css" />
+
+      <title>Frontend Mentor | Project tracking intro component</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="container">
+            <div class="header__content">
+               <div class="header__content-brand">
+                  <img src="images/logo.svg" alt="logo" />
+                  <div class="open-close-container">
+                     <img class="open" src="images/icon-hamburger.svg" alt="open menu" />
+                     <img class="close" src="images/icon-close.svg" alt="close menu" />
+                  </div>
+               </div>
+               <nav class="header__nav">
+                  <ul class="header__links">
+                     <li><a href="#"> Product</a></li>
+                     <li><a href="#"> Features</a></li>
+                     <li><a href="#">Pricing</a></li>
+                     <li class="txt-gray"><a href="#">Login</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+         <div class="container">
+            <div class="flex">
+               <div class="main__content">
+                  <span class="new">New</span><h2>Monograph Dashboard</h2> 
+                  <h1>Powerful insights into your team</h1>
+                  <p>Project planning and time tracking for agile teams</p>
+                  <button class="btn">Schedule a demo</button>
+                  <span class="span2">to see a live preview</span>
+               </div>
+               <div class="phone_laptop_img">
+                  <img src="images/illustration-devices.svg" alt="cell phone and laptop" />
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <script src="js/app.js"></script>
+   </body>
+</html>
+
+
+<!-- TODO -->
+<!-- find out how to nest media queries in sass -->
+<!-- fix the background image on mobile -->
